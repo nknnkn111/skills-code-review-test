@@ -40,6 +40,7 @@ jobs:
 
           # LiteLLM 网关密钥
           OPENAI__KEY: ${{ secrets.OPENAI_KEY }}
+          OPENAI_KEY: ${{ secrets.OPENAI_KEY }}
 
           # 指定内部部署模型
           config.model: "openai/MiniMax-M2.7-W8A8"
