@@ -42,8 +42,8 @@ jobs:
           OPENAI__KEY: ${{ secrets.LITELLM_API_KEY }}
 
           # 指定内部部署模型
-          config.model: "openai/MiniMax-M2.7-W8A8-PD"
-          config.fallback_models: '["openai/MiniMax-M2.7-W8A8-PD"]'
+          config.model: "openai/MiniMax-M2.7-W8A8"
+          config.fallback_models: '["openai/MiniMax-M2.7-W8A8"]'
 
           # 自定义模型必须指定上下文长度
           config.custom_model_max_tokens: "32000"
